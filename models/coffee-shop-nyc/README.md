@@ -2,7 +2,7 @@
 
 > A 3-year business plan for an independent specialty café in Manhattan. Funds a build-out with owner equity + a bank loan, then ramps traffic and ticket. P&L, Cash Flow and Balance Sheet that tie out, plus a CFO-style dashboard.
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork_this_model-2D6BFF?style=for-the-badge)](https://app.layerz.cc/t/d161c3c4-ade6-48e4-b162-48fa2f81c545)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork_this_model-2D6BFF?style=for-the-badge)](https://app.layerz.cc/models/d161c3c4-ade6-48e4-b162-48fa2f81c545)
 &nbsp;
 ![Currency](https://img.shields.io/badge/currency-USD-333)
 ![Horizon](https://img.shields.io/badge/horizon-2026–2028-333)
@@ -101,7 +101,7 @@ flowchart TD
 
 ## How to use it
 
-1. **[Open in Layerz](https://app.layerz.cc/t/d161c3c4-ade6-48e4-b162-48fa2f81c545)** and fork it (free account).
+1. **[Open in Layerz](https://app.layerz.cc/models/d161c3c4-ade6-48e4-b162-48fa2f81c545)** and fork it (free account).
 2. Edit the drivers in **Assumptions** — customers/day, avg ticket, rent, loan terms.
 3. Watch every statement recompute, and confirm **Balance Check == 0**.
 
@@ -109,6 +109,6 @@ flowchart TD
 
 ---
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork_this_model-2D6BFF?style=for-the-badge)](https://app.layerz.cc/t/d161c3c4-ade6-48e4-b162-48fa2f81c545)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork_this_model-2D6BFF?style=for-the-badge)](https://app.layerz.cc/models/d161c3c4-ade6-48e4-b162-48fa2f81c545)
 
 *Shared by [@anthomakr](https://github.com/anthomakr) · built with [Layerz](https://layerz.cc) · we share the recipe, not the black box.*

@@ -24,7 +24,7 @@ To publish or refresh a model page:
 ## Conventions
 
 - Copy is **English** (public-facing).
-- **Open in Layerz** button → the model's public share URL (format TBD, currently `app.layerz.cc/t/<id>`).
+- **Open in Layerz** button → `https://app.layerz.cc/models/<model_id>` (same URL used for sharing).
 - Voice: *"we share the recipe, not the black box."* Personal repo, not corporate Layerz Labs.
 - Dashboard screenshots are real Layerz exports dropped in `.github/assets/` (concierge step, not auto-generated).
 
