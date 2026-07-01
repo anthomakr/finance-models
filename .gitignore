@@ -1,0 +1,18 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & env
+*.log
+.env
+.env.*
+
+# Editor / tooling
+.vscode/
+.idea/
+node_modules/
+.vercel
+
+# Local scratch (not part of the library)
+scratch/
+tmp/
