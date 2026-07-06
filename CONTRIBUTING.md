@@ -14,9 +14,15 @@ Each model gets its own page: a readable recipe, the structure as a diagram, the
 
 ## Want your own library like this?
 
-If you teach or create content around AI and finance, you can have a library like this **under your own name** — your models, on your GitHub, opening into Layerz, powered by the same structure.
+If you teach or create content around AI and finance, you can have a library like this **under your own name**: your models, on your GitHub, opening into Layerz, powered by the same structure.
 
-That's the whole point: your credit, your audience, real artifacts your people can fork and keep instead of prompts they'll lose. Reach out and we'll build the first model with you.
+This repo is a **GitHub template**, so you don't start from scratch:
+
+1. Click **[Use this template](https://github.com/anthomakr/finance-models/generate)** to create your own repo.
+2. Clear the example models and point your agent at the [`CLAUDE.md`](CLAUDE.md): it knows how to render a model page straight from a live Layerz model over MCP, and refresh it in one command.
+3. Add your own models. Your pages regenerate from your live models, so the library stays true to what you actually built.
+
+That's the whole point: your credit, your audience, real artifacts your people can fork and keep instead of prompts they'll lose. Reach out if you want a hand building the first one.
 
 ---
 

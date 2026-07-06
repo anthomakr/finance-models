@@ -2,6 +2,12 @@
 
 > A B2B mid-market SaaS operating model, 2024–2028. Customer base → ARR → full three statements, with unit economics, a CFO dashboard, and a Budget-vs-Actuals close. Growth funded by a $3M Series A in 2025.
 
+<p align="center">
+  <a href="https://app.layerz.cc/models/39550987-f253-4a36-b067-6daddcb1e3ff">
+    <img src="https://app.layerz.cc/models/39550987-f253-4a36-b067-6daddcb1e3ff/opengraph-image" width="640" alt="SaaS Reporting & Forecast, Layerz model card">
+  </a>
+</p>
+
 [![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork_this_model-2D6BFF?style=for-the-badge)](https://app.layerz.cc/models/39550987-f253-4a36-b067-6daddcb1e3ff)
 &nbsp;
 ![Currency](https://img.shields.io/badge/currency-USD-333)

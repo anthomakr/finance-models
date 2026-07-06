@@ -34,3 +34,8 @@ To publish or refresh a model page:
 |---|---|
 | coffee-shop-nyc | `d161c3c4-ade6-48e4-b162-48fa2f81c545` |
 | saas-reporting-forecast | `39550987-f253-4a36-b067-6daddcb1e3ff` |
+| project-finance | `5e54258d-e4b6-48a0-91b0-32d4271fe224` |
+| saas-series-a | `3f9737d9-e7c8-4f56-b962-6bb9963d6095` |
+| lbo | `57af5678-5e56-44bc-9d46-379b8eb961b6` |
+| monthly-close | `ccea856a-6ee5-4f79-b891-e1c321daac4d` |
+| valuation | `29f9cebe-cfc3-403b-82c4-bd50e1f8e042` |
