@@ -47,7 +47,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the two ways in: get a model featured
 
 <img src="https://github.com/anthomakr.png" width="72" align="left" style="margin-right:16px" alt="anthomakr" />
 
-Hi, I'm Anthony, a founder. I've worked hand in hand with dozens of CFOs and finance teams on their models, and kept watching good ones get thrown away after a single deal or budget. So I started keeping mine here, structured and forkable, and I'm building [Layerz](https://layerz.cc) to make that the normal way to work.
+Hi, I'm Anthony. I've worked hand in hand with dozens of CFOs and finance teams on their models, and kept watching good ones get thrown away after a single deal or budget. So I started keeping mine here, structured and forkable, and I'm building [Layerz](https://layerz.cc) to make that the normal way to work.
 
 This library is small on purpose. If it gives you one model you can reuse, it did its job. And if it makes you want your own, even better, that is what the template is for.
 
