@@ -2,6 +2,12 @@
 
 > A B2B SaaS company raising an €8m Series A: the ARR build, the unit economics, the path to profitability and the cash runway, with three statements that tie out every year.
 
+<p align="center">
+  <a href="https://app.layerz.cc/models/3f9737d9-e7c8-4f56-b962-6bb9963d6095">
+    <img src="https://app.layerz.cc/models/3f9737d9-e7c8-4f56-b962-6bb9963d6095/opengraph-image" width="640" alt="SaaS Scale-up Series A, Layerz model card">
+  </a>
+</p>
+
 [![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/3f9737d9-e7c8-4f56-b962-6bb9963d6095)
 ![Currency](https://img.shields.io/badge/currency-EUR_(k€)-555)
 ![Horizon](https://img.shields.io/badge/horizon-2026--2030-555)

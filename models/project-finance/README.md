@@ -2,6 +2,12 @@
 
 > A reusable project-finance template for a capex-heavy asset on a long-term contract: sized senior debt, DSCR and equity IRR, and three statements that tie out every year. Worked example here: a 500 MW offshore wind farm on a 20-year PPA.
 
+<p align="center">
+  <a href="https://app.layerz.cc/models/5e54258d-e4b6-48a0-91b0-32d4271fe224">
+    <img src="https://app.layerz.cc/models/5e54258d-e4b6-48a0-91b0-32d4271fe224/opengraph-image" width="640" alt="Infrastructure Project Finance, Layerz model card">
+  </a>
+</p>
+
 [![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/5e54258d-e4b6-48a0-91b0-32d4271fe224)
 ![Currency](https://img.shields.io/badge/currency-EUR_(k€)-555)
 ![Horizon](https://img.shields.io/badge/horizon-2026--2046-555)
