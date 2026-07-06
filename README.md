@@ -14,7 +14,7 @@ Most financial models are disposable: every deal, every budget starts from a bla
 |---|---|---|
 | [☕ Coffee Shop NYC](models/coffee-shop-nyc/) | 3-year café business plan: P&L, Cash Flow, Balance Sheet that tie out, plus a CFO dashboard | [![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/d161c3c4-ade6-48e4-b162-48fa2f81c545) |
 | [📈 SaaS Reporting & Forecast](models/saas-reporting-forecast/) | B2B SaaS operating model 2024-2028: ARR & unit economics, actuals & variance, 3 statements | [![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/39550987-f253-4a36-b067-6daddcb1e3ff) |
-| [🌬️ Offshore Wind Farm](models/offshore-wind/) | 500 MW offshore wind project finance 2026-2046: sized senior debt, DSCR, equity IRR, 3 statements that tie out | [![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/5e54258d-e4b6-48a0-91b0-32d4271fe224) |
+| [🏗️ Infrastructure Project Finance](models/project-finance/) | Reusable project-finance template (worked example: 500 MW offshore wind, 2026-2046): sized senior debt, DSCR, equity IRR, 3 statements that tie out | [![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/5e54258d-e4b6-48a0-91b0-32d4271fe224) |
 | [🚀 SaaS Scale-up (Series A)](models/saas-series-a/) | B2B SaaS Series A plan 2026-2030: ARR build, unit economics, path to profit and runway, 3 statements that tie out | [![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/3f9737d9-e7c8-4f56-b962-6bb9963d6095) |
 
 *More coming (reusable modules). Want yours here? → [CONTRIBUTING.md](CONTRIBUTING.md)*

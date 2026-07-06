@@ -1,13 +1,24 @@
-# 🌬️ Offshore Wind Farm - Project Finance
+# 🏗️ Infrastructure Project Finance
 
-> A 500 MW offshore wind farm on a 20-year PPA, modelled as project finance: sized senior debt, DSCR and equity IRR, and three statements that tie out every single year.
+> A reusable project-finance template for a capex-heavy asset on a long-term contract: sized senior debt, DSCR and equity IRR, and three statements that tie out every year. Worked example here: a 500 MW offshore wind farm on a 20-year PPA.
 
 [![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/5e54258d-e4b6-48a0-91b0-32d4271fe224)
 ![Currency](https://img.shields.io/badge/currency-EUR_(k€)-555)
 ![Horizon](https://img.shields.io/badge/horizon-2026--2046-555)
 ![Balanced](https://img.shields.io/badge/3--statement-balanced-2E9E5B)
 
-Change a driver (capacity, PPA price, gearing, tenor) and every statement recomputes. The balance sheet ties out in all 21 years (`Balance Check` = 0, monitored), and the senior debt amortises straight to zero at maturity with no negative-balance artifact.
+The structure is the point, not the sector. Change a driver (capacity, price, gearing, tenor) and every statement recomputes; the balance sheet ties out in all 21 years (`Balance Check` = 0, monitored), and the senior debt amortises straight to zero at maturity with no negative-balance artifact.
+
+## Reuse it for any infrastructure asset
+
+Project finance is the same skeleton whatever the asset: a large upfront capex, funded by sized senior debt plus sponsor equity, repaid from long-term contracted cash flows, tested on DSCR and equity IRR. To retheme this model, keep the structure and swap the asset drivers:
+
+- **Solar or battery storage**: capacity, capacity factor, PPA price, degradation.
+- **Digital infrastructure (towers, data centres)**: sites or racks, lease rate, occupancy, opex per unit.
+- **Transport (toll road, rail)**: traffic, tariff, ramp-up curve.
+- **Any asset**: capex per unit, gearing, debt rate and tenor, tax, asset life.
+
+The debt sizing, the three statements and the coverage ratios do not change. That is what makes it worth keeping as a template.
 
 ---
 
