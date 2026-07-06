@@ -37,3 +37,4 @@ To publish or refresh a model page:
 | project-finance | `5e54258d-e4b6-48a0-91b0-32d4271fe224` |
 | saas-series-a | `3f9737d9-e7c8-4f56-b962-6bb9963d6095` |
 | lbo | `57af5678-5e56-44bc-9d46-379b8eb961b6` |
+| monthly-close | `ccea856a-6ee5-4f79-b891-e1c321daac4d` |
