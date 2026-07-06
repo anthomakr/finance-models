@@ -34,3 +34,4 @@ To publish or refresh a model page:
 |---|---|
 | coffee-shop-nyc | `d161c3c4-ade6-48e4-b162-48fa2f81c545` |
 | saas-reporting-forecast | `39550987-f253-4a36-b067-6daddcb1e3ff` |
+| offshore-wind | `5e54258d-e4b6-48a0-91b0-32d4271fe224` |
