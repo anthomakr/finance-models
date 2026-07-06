@@ -18,6 +18,7 @@ Most financial models are disposable: every deal, every budget starts from a bla
 | [🚀 SaaS Scale-up (Series A)](models/saas-series-a/) | B2B SaaS Series A plan 2026-2030: ARR build, unit economics, path to profit and runway, 3 statements that tie out | [![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/3f9737d9-e7c8-4f56-b962-6bb9963d6095) |
 | [💰 LBO (Mid-Market Buyout)](models/lbo/) | Leveraged buyout 2025-2030: sources & uses, sized debt with cash sweep, IRR & MOIC, 3 statements that tie out | [![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/57af5678-5e56-44bc-9d46-379b8eb961b6) |
 | [📊 Monthly Close (Actuals vs Budget)](models/monthly-close/) | Monthly management P&L with a budget base and an actuals branch: native variance and EBITDA budget-to-actual bridge, no second spreadsheet | [![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/ccea856a-6ee5-4f79-b891-e1c321daac4d) |
+| [⚖️ Valuation (DCF & Multiples)](models/valuation/) | Company valuation 2025-2030: 5-year unlevered DCF + trading comps (EV/EBITDA, EV/Revenue, P/E) resolved into a football field per share | [![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/29f9cebe-cfc3-403b-82c4-bd50e1f8e042) |
 
 *More coming (reusable modules). Want yours here? → [CONTRIBUTING.md](CONTRIBUTING.md)*
 
