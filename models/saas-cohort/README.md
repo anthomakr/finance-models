@@ -30,7 +30,7 @@ Two monitors hold it honest: the **MRR bridge check** (opening + new + expansion
 | New customers that month | 52 | 162 | 510 |
 | ARPA (€/month) | 470 | 493 | 518 |
 | NRR (monthly) | 97% | 98% | 98% |
-| Cash (€) | 587,545 | 3,565,039 | 4,410,303 |
+| Cash (€) | 278,609 | 2,506,803 | 1,057,667 |
 
 ## P&L (€, full year)
 
@@ -39,28 +39,28 @@ Two monitors hold it honest: the **MRR bridge check** (opening + new + expansion
 | Revenue | 873,572 | 4,503,693 | 16,376,788 |
 | COGS | (131,036) | (675,554) | (2,456,518) |
 | **Gross profit** | **742,536** | **3,828,139** | **13,920,269** |
-| Sales & marketing | (483,600) | (1,461,600) | (4,588,800) |
+| Sales & marketing | (806,000) | (2,436,000) | (7,648,000) |
 | R&D | (157,243) | (810,665) | (2,947,822) |
 | G&A | (104,829) | (540,443) | (1,965,215) |
-| **EBITDA** | **(3,136)** | **1,015,431** | **4,418,433** |
+| **EBITDA** | **(325,536)** | **41,031** | **1,359,233** |
 | D&A | (26,500) | (38,500) | (50,500) |
-| **EBIT** | **(29,636)** | **976,931** | **4,367,933** |
-| Income tax | (13,464) | (244,233) | (1,091,983) |
-| **Net income** | **(43,099)** | **732,698** | **3,275,950** |
+| **EBIT** | **(352,036)** | **2,531** | **1,308,733** |
+| Income tax | 0 | (19,133) | (327,183) |
+| **Net income** | **(352,036)** | **(16,602)** | **981,550** |
 
-Revenue is the sum of the twelve monthly MRRs, which is why full-year 2026 revenue (874k) sits well below the December exit ARR (1.89M). Tax is computed monthly on positive EBIT, so a year that closes at a small loss can still carry tax from its profitable months.
+Revenue is the sum of the twelve monthly MRRs, which is why full-year 2026 revenue (874k) sits well below the December exit ARR (1.89M). Tax is computed monthly on positive EBIT, so 2027 closes at a small net loss and still carries €19k of tax from its profitable months.
 
 ## Balance sheet (December exit, €)
 
 | Line | Dec 2026 | Dec 2027 | Dec 2028 |
 |---|--:|--:|--:|
-| Cash | 587,545 | 3,565,039 | 4,410,303 |
+| Cash | 278,609 | 2,506,803 | 1,057,667 |
 | Receivables | 235,856 | 969,560 | 3,390,746 |
 | Fixed assets (net) | 133,500 | 155,000 | 164,500 |
-| **Total assets** | **956,901** | **4,689,599** | **7,965,549** |
+| **Total assets** | **647,964** | **3,631,363** | **4,612,913** |
 | Paid-in capital | 1,000,000 | 4,000,000 | 4,000,000 |
-| Retained earnings | (43,099) | 689,599 | 3,965,549 |
-| **Total equity** | **956,901** | **4,689,599** | **7,965,549** |
+| Retained earnings | (352,036) | (368,637) | 612,913 |
+| **Total equity** | **647,964** | **3,631,363** | **4,612,913** |
 | **Balance check** | **0** | **0** | **0** |
 
 A €3M Series A lands in January 2027. Every non-cash balance sheet line has its cash flow mirror, so the identity holds without a plug.
@@ -81,7 +81,7 @@ flowchart LR
   MRR --> PL["Revenue → P&L → Cash Flow → Balance Sheet"]
 ```
 
-- **`Churn Rate by Age`** is a list-assumption on a `Tenure (months)` list: the share of a cohort lost at each month of its life. One row, thirty-six cells, and it is the only place retention is expressed.
+- **`Churn Rate by Age`** is a list-assumption on a `Tenure (months)` list: the share of a cohort lost at each month of its life (10% at M1, decaying to a 0.2% floor from M12). One row, thirty-six cells, and it is the only place retention is expressed.
 - **`tenure_index = LIST_INDEX`** turns the position in that list into a dynamic lag, so `Cohort Loss[i]` reads the acquisition cohort that is exactly `i` months old.
 - **`Customer Base`** is a **balance** with two flows, acquisitions and churn. It is a stock, so it cannot silently drift away from the flows that feed it.
 - Churn is explicit through M35, the full horizon, so no cohort is dumped into a "mature pool" with an averaged rate.
@@ -91,11 +91,19 @@ flowchart LR
 | Metric | Dec 2026 | Dec 2027 | Dec 2028 |
 |---|--:|--:|--:|
 | Gross margin | 85% | 85% | 85% |
-| LTV (€) | 49,959 | 52,413 | 54,984 |
-| LTV to CAC | 41.6x | 43.7x | 45.8x |
-| CAC payback (months) | 3.0 | 2.9 | 2.7 |
+| LTV (€) | 10,802 | 11,333 | 11,889 |
+| LTV to CAC | 5.4x | 5.7x | 5.9x |
+| CAC payback (months) | 5.0 | 4.8 | 4.6 |
 
-Read these with care. LTV uses the separate `Steady Churn (LTV)` driver, not the cohort curve, and the demo value for it is deliberately low, which is what produces a 40x plus LTV to CAC. Re-base that one driver on your own steady-state churn before quoting any of these four numbers.
+**The LTV convention is the interesting part.** LTV divides by `Steady Churn (LTV)`, set here to **3.7% per month, which is `1 / 27.1 months`**: the expected lifetime the churn curve actually implies over the 36 months the model projects (the sum of survival from M0 to M35). It claims no credit for a tail beyond the horizon.
+
+That choice is doing a lot of work. Read the same curve as a perpetual 0.2% floor instead and the implied lifetime becomes 125 months, LTV jumps past €49k and LTV to CAC reads above 40x. Nothing else in the model changes. It is the cleanest illustration of why an LTV figure is only as good as the convention printed next to it.
+
+## Working capital is the real constraint
+
+Operating cash flow stays **negative every single month**, even after EBITDA turns positive in mid-2027. At 45 days DSO on a base growing around 8% per month, receivables absorb more than the profit: they reach €3.4M by the end of 2028 against €1.4M of EBITDA that year.
+
+Cash bottoms at €279k just before the Series A, recovers to €3.2M, then falls back to €1.1M by December 2028 and is still declining. **This plan needs further funding beyond 2028.** That is a property of the growth rate, not an error in the model, and it is exactly the kind of thing a revenue-only projection hides.
 
 ## Conventions
 
@@ -111,8 +119,9 @@ Read these with care. LTV uses the separate `Steady Churn (LTV)` driver, not the
 
 1. **[Open it in Layerz](https://app.layerz.cc/models/0cf40614-eb52-48b9-8d72-cbecc84860b2)** (free account) and **fork** it: you get a model you own.
 2. Edit three levers: the **churn curve** by tenure, the **new customers** ramp, and **ARPA**. The customer stock, the revenue and all three statements recompute.
-3. Confirm `MRR Bridge Check == 0` and `Balance Check == 0`. If a change breaks either, the monitor turns red before the number reaches a slide.
-4. Export to Excel any time. The export is clean and auditable.
+3. Re-base **`SnM CAC`** and **`Steady Churn (LTV)`** on your own data before quoting any unit economics.
+4. Confirm `MRR Bridge Check == 0` and `Balance Check == 0`. If a change breaks either, the monitor turns red before the number reaches a slide.
+5. Export to Excel any time. The export is clean and auditable.
 
 [![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/0cf40614-eb52-48b9-8d72-cbecc84860b2)
 
