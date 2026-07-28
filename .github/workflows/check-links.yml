@@ -1,0 +1,49 @@
+name: Check model links
+
+# The pages in this repo are frozen snapshots of live Layerz models.
+# If a model is edited away, unshared or deleted, the public page keeps
+# claiming it exists. This job catches that within a week.
+
+on:
+  schedule:
+    - cron: '0 7 * * 1' # Mondays, 07:00 UTC
+  push:
+    branches: [main]
+    paths:
+      - 'models/**'
+      - 'README.md'
+      - '.github/workflows/check-links.yml'
+  workflow_dispatch:
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Collect model ids from the model pages
+        id: collect
+        run: |
+          grep -rhoE 'app\.layerz\.cc/models/[0-9a-f-]{36}' models README.md \
+            | sed 's|.*/||' | sort -u > ids.txt
+          echo "Found $(wc -l < ids.txt) model id(s):"
+          cat ids.txt
+          test -s ids.txt || { echo "::error::no model ids found"; exit 1; }
+
+      - name: Check each model page and its OG card
+        run: |
+          fail=0
+          while read -r id; do
+            for url in \
+              "https://app.layerz.cc/models/$id" \
+              "https://app.layerz.cc/models/$id/opengraph-image"; do
+              code=$(curl -sS -o /dev/null -w '%{http_code}' --max-time 30 --retry 2 "$url" || echo 000)
+              if [ "$code" = "200" ]; then
+                echo "ok   $code  $url"
+              else
+                echo "::error::$code $url"
+                fail=1
+              fi
+            done
+          done < ids.txt
+          exit $fail

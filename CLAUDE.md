@@ -23,7 +23,9 @@ To publish or refresh a model page:
 
 ## Conventions
 
-- Copy is **English** (public-facing).
+- **Published models are frozen.** Every model listed below is a live model backing a public page. Do not edit or delete one for a demo, a test or a quick fix: the page here would keep describing a model that no longer exists. Fork it and work on the fork. The weekly `check-links` workflow catches a dead model or OG card, but only after the fact.
+- Copy is **English** (public-facing). Layerz system templates whose FINANCE.md is written in French must be translated before they get a page here.
+- **This catalog and the Layerz system templates are two different lists.** A model can be a system template without a page here, and vice versa. Reconcile deliberately (`layerz_list_templates({ scope: "system" })`), never assume they match.
 - **Open in Layerz** button → `https://app.layerz.cc/models/<model_id>` (same URL used for sharing).
 - Voice: *"we share the recipe, not the black box."* Personal repo, not corporate Layerz Labs.
 - Dashboard screenshots are real Layerz exports dropped in `.github/assets/` (concierge step, not auto-generated).
