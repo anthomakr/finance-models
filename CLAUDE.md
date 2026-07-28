@@ -41,3 +41,9 @@ To publish or refresh a model page:
 | lbo | `57af5678-5e56-44bc-9d46-379b8eb961b6` |
 | monthly-close | `ccea856a-6ee5-4f79-b891-e1c321daac4d` |
 | valuation | `29f9cebe-cfc3-403b-82c4-bd50e1f8e042` |
+| tech-ma-lbo | `3657668b-4684-4010-bd9b-c83845db1dff` |
+| saas-cohort | `0cf40614-eb52-48b9-8d72-cbecc84860b2` |
+
+## Monthly models — read the right period
+
+For a monthly model, `granularity: "yearly"` **sums flows and closes stocks**. A balance-sheet formula (Total Assets, Receivables) has no `aggregation`, so it defaults to sum and the yearly figure is meaningless. Read balance-sheet and stock lines with explicit `periods: ["2026-12", ...]`; keep the yearly grain for P&L flows only.
