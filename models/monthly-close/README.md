@@ -3,12 +3,12 @@
 > A monthly management P&L where the budget and the actuals are the same model, not two spreadsheets. Overlay the closed months on an Actuals branch and the variance, plus the EBITDA budget-to-actual bridge, fall out on their own.
 
 <p align="center">
-  <a href="https://app.layerz.cc/models/ccea856a-6ee5-4f79-b891-e1c321daac4d">
-    <img src="https://app.layerz.cc/models/ccea856a-6ee5-4f79-b891-e1c321daac4d/opengraph-image" width="640" alt="Monthly Close, Actuals vs Budget, Layerz model card">
+  <a href="https://layerz.cc/models/ccea856a-6ee5-4f79-b891-e1c321daac4d">
+    <img src="https://layerz.cc/models/ccea856a-6ee5-4f79-b891-e1c321daac4d/opengraph-image" width="640" alt="Monthly Close, Actuals vs Budget, Layerz model card">
   </a>
 </p>
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/ccea856a-6ee5-4f79-b891-e1c321daac4d)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://layerz.cc/models/ccea856a-6ee5-4f79-b891-e1c321daac4d)
 ![Currency](https://img.shields.io/badge/currency-EUR_(k€)-555)
 ![Period](https://img.shields.io/badge/period-FY2026_monthly-555)
 ![Close](https://img.shields.io/badge/budget_vs-actuals-2E9E5B)
@@ -76,11 +76,11 @@ Full conventions live in the model's `FINANCE.md`.
 
 ## How to use it
 
-1. **[Open it in Layerz](https://app.layerz.cc/models/ccea856a-6ee5-4f79-b891-e1c321daac4d)** (free account) and **fork** it: you get a model you own.
+1. **[Open it in Layerz](https://layerz.cc/models/ccea856a-6ee5-4f79-b891-e1c321daac4d)** (free account) and **fork** it: you get a model you own.
 2. Each month, add that month's actuals to the Actuals branch (type them or import a file). The variance, the bridge and the reforecast update on their own.
 3. Export to Excel any time. The export is clean and auditable.
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/ccea856a-6ee5-4f79-b891-e1c321daac4d)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://layerz.cc/models/ccea856a-6ee5-4f79-b891-e1c321daac4d)
 
 ---
 

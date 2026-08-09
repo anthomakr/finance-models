@@ -3,12 +3,12 @@
 > A mid-market software buyout in one file: the operating case, the capital structure and the price conversation. Fork it, drop a target's real actuals into the historical years, and let the rest run off the drivers.
 
 <p align="center">
-  <a href="https://app.layerz.cc/models/3657668b-4684-4010-bd9b-c83845db1dff">
-    <img src="https://app.layerz.cc/models/3657668b-4684-4010-bd9b-c83845db1dff/opengraph-image" width="640" alt="Tech M&A LBO Deal Model, Layerz model card">
+  <a href="https://layerz.cc/models/3657668b-4684-4010-bd9b-c83845db1dff">
+    <img src="https://layerz.cc/models/3657668b-4684-4010-bd9b-c83845db1dff/opengraph-image" width="640" alt="Tech M&A LBO Deal Model, Layerz model card">
   </a>
 </p>
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/3657668b-4684-4010-bd9b-c83845db1dff)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://layerz.cc/models/3657668b-4684-4010-bd9b-c83845db1dff)
 ![Currency](https://img.shields.io/badge/currency-USD-555)
 ![Period](https://img.shields.io/badge/period-FY2024--2028-555)
 ![Balanced](https://img.shields.io/badge/3--statement-balanced-2E9E5B)
@@ -121,12 +121,12 @@ Interest on the **opening balance**, no cash sweep: amortisation is a scheduled 
 
 ## How to use it
 
-1. **[Open it in Layerz](https://app.layerz.cc/models/3657668b-4684-4010-bd9b-c83845db1dff)** (free account) and **fork** it: you get a model you own.
+1. **[Open it in Layerz](https://layerz.cc/models/3657668b-4684-4010-bd9b-c83845db1dff)** (free account) and **fork** it: you get a model you own.
 2. Replace the historical years with the target's real numbers from the data room, and move `actuals_through` to your cutover.
 3. Rebuild the capital structure by editing the `Debt Tranches` list. Add or remove a tranche, the schedule and the three statements follow.
 4. Export to Excel any time. The export is clean and auditable.
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/3657668b-4684-4010-bd9b-c83845db1dff)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://layerz.cc/models/3657668b-4684-4010-bd9b-c83845db1dff)
 
 ---
 

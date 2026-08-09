@@ -3,12 +3,12 @@
 > A company valuation done two ways and laid side by side: a 5-year unlevered DCF and trading comps (EV/EBITDA, EV/Revenue, P/E), resolved into a football field per share. Change a driver and the whole football field moves.
 
 <p align="center">
-  <a href="https://app.layerz.cc/models/29f9cebe-cfc3-403b-82c4-bd50e1f8e042">
-    <img src="https://app.layerz.cc/models/29f9cebe-cfc3-403b-82c4-bd50e1f8e042/opengraph-image" width="640" alt="Valuation DCF and Multiples, Layerz model card">
+  <a href="https://layerz.cc/models/29f9cebe-cfc3-403b-82c4-bd50e1f8e042">
+    <img src="https://layerz.cc/models/29f9cebe-cfc3-403b-82c4-bd50e1f8e042/opengraph-image" width="640" alt="Valuation DCF and Multiples, Layerz model card">
   </a>
 </p>
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/29f9cebe-cfc3-403b-82c4-bd50e1f8e042)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://layerz.cc/models/29f9cebe-cfc3-403b-82c4-bd50e1f8e042)
 ![Currency](https://img.shields.io/badge/currency-EUR_(k€)-555)
 ![Base](https://img.shields.io/badge/base-2025_LTM-555)
 ![Forecast](https://img.shields.io/badge/forecast-2026--2030-555)
@@ -90,11 +90,11 @@ Full conventions live in the model's `FINANCE.md`.
 
 ## How to use it
 
-1. **[Open it in Layerz](https://app.layerz.cc/models/29f9cebe-cfc3-403b-82c4-bd50e1f8e042)** (free account) and **fork** it: you get a model you own.
+1. **[Open it in Layerz](https://layerz.cc/models/29f9cebe-cfc3-403b-82c4-bd50e1f8e042)** (free account) and **fork** it: you get a model you own.
 2. Change the drivers in `Assumptions` (WACC, terminal growth, margins, the comp multiples low/mid/high, net debt, shares). The DCF, every multiple and the football field recompute at once.
 3. Export to Excel any time. The export is clean and auditable.
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/29f9cebe-cfc3-403b-82c4-bd50e1f8e042)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://layerz.cc/models/29f9cebe-cfc3-403b-82c4-bd50e1f8e042)
 
 ---
 
