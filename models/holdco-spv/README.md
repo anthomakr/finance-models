@@ -3,12 +3,12 @@
 > A portfolio of project companies under one holding, driven entirely by a list. Adding a fourth SPV is three keystrokes: a list element, a capacity, a commissioning year. No formula is touched.
 
 <p align="center">
-  <a href="https://app.layerz.cc/models/9548419c-9659-4da0-af74-14d58e61a220">
-    <img src="https://app.layerz.cc/models/9548419c-9659-4da0-af74-14d58e61a220/opengraph-image" width="640" alt="HoldCo SPV rooftop solar portfolio, Layerz model card">
+  <a href="https://layerz.cc/models/9548419c-9659-4da0-af74-14d58e61a220">
+    <img src="https://layerz.cc/models/9548419c-9659-4da0-af74-14d58e61a220/opengraph-image" width="640" alt="HoldCo SPV rooftop solar portfolio, Layerz model card">
   </a>
 </p>
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/9548419c-9659-4da0-af74-14d58e61a220)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://layerz.cc/models/9548419c-9659-4da0-af74-14d58e61a220)
 ![Currency](https://img.shields.io/badge/currency-EUR_(k€)-555)
 ![Period](https://img.shields.io/badge/period-2026--2045-555)
 ![Balanced](https://img.shields.io/badge/HoldCo_balance-checked-2E9E5B)
@@ -81,12 +81,12 @@ No loss carry-forward on tax, since the SPVs are profitable from year one. No pe
 
 ## How to use it
 
-1. **[Open it in Layerz](https://app.layerz.cc/models/9548419c-9659-4da0-af74-14d58e61a220)** (free account) and **fork** it.
+1. **[Open it in Layerz](https://layerz.cc/models/9548419c-9659-4da0-af74-14d58e61a220)** (free account) and **fork** it.
 2. Replace the `SPV` list with your own assets, one element each, with capacity and commissioning year.
 3. Re-base the technical and tariff assumptions, then the debt terms. Check DSCR per SPV and at portfolio level.
 4. Confirm the HoldCo balance check holds at 0, then export to Excel.
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/9548419c-9659-4da0-af74-14d58e61a220)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://layerz.cc/models/9548419c-9659-4da0-af74-14d58e61a220)
 
 ---
 

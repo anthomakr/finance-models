@@ -3,12 +3,12 @@
 > Four channels, four different economics. A blended gross margin hides which one actually pays, and hides what growth costs you in cash.
 
 <p align="center">
-  <a href="https://app.layerz.cc/models/d5e899c7-a710-4f2a-9b05-cc3e88690af1">
-    <img src="https://app.layerz.cc/models/d5e899c7-a710-4f2a-9b05-cc3e88690af1/opengraph-image" width="640" alt="E-commerce and Retail Channel Mix, Layerz model card">
+  <a href="https://layerz.cc/models/d5e899c7-a710-4f2a-9b05-cc3e88690af1">
+    <img src="https://layerz.cc/models/d5e899c7-a710-4f2a-9b05-cc3e88690af1/opengraph-image" width="640" alt="E-commerce and Retail Channel Mix, Layerz model card">
   </a>
 </p>
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/d5e899c7-a710-4f2a-9b05-cc3e88690af1)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://layerz.cc/models/d5e899c7-a710-4f2a-9b05-cc3e88690af1)
 ![Currency](https://img.shields.io/badge/currency-EUR-555)
 ![Period](https://img.shields.io/badge/period-2026--2028-555)
 ![Balanced](https://img.shields.io/badge/3--statement-balanced-2E9E5B)
@@ -123,12 +123,12 @@ Retail store costs sit inside `Channel Cost %` rather than being driven by a sto
 
 ## How to use it
 
-1. **[Open it in Layerz](https://app.layerz.cc/models/d5e899c7-a710-4f2a-9b05-cc3e88690af1)** (free account) and **fork** it.
+1. **[Open it in Layerz](https://layerz.cc/models/d5e899c7-a710-4f2a-9b05-cc3e88690af1)** (free account) and **fork** it.
 2. Replace the `Channels` list with your own, then fill orders, AOV, product margin and channel cost.
 3. Re-base days inventory, DSO and DPO on your real terms. They drive the cash line far more than the P&L does.
 4. Export to Excel any time. The export is clean and auditable.
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/d5e899c7-a710-4f2a-9b05-cc3e88690af1)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://layerz.cc/models/d5e899c7-a710-4f2a-9b05-cc3e88690af1)
 
 ---
 

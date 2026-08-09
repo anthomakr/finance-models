@@ -3,12 +3,12 @@
 > A B2B mid-market SaaS operating model, 2024–2028. Customer base → ARR → full three statements, with unit economics, a CFO dashboard, and a Budget-vs-Actuals close. Growth funded by a $3M Series A in 2025.
 
 <p align="center">
-  <a href="https://app.layerz.cc/models/39550987-f253-4a36-b067-6daddcb1e3ff">
-    <img src="https://app.layerz.cc/models/39550987-f253-4a36-b067-6daddcb1e3ff/opengraph-image" width="640" alt="SaaS Reporting & Forecast, Layerz model card">
+  <a href="https://layerz.cc/models/39550987-f253-4a36-b067-6daddcb1e3ff">
+    <img src="https://layerz.cc/models/39550987-f253-4a36-b067-6daddcb1e3ff/opengraph-image" width="640" alt="SaaS Reporting & Forecast, Layerz model card">
   </a>
 </p>
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork_this_model-2D6BFF?style=for-the-badge)](https://app.layerz.cc/models/39550987-f253-4a36-b067-6daddcb1e3ff)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork_this_model-2D6BFF?style=for-the-badge)](https://layerz.cc/models/39550987-f253-4a36-b067-6daddcb1e3ff)
 &nbsp;
 ![Currency](https://img.shields.io/badge/currency-USD-333)
 ![Horizon](https://img.shields.io/badge/horizon-2024–2028-333)
@@ -113,7 +113,7 @@ Sections: Assumptions · Operating Drivers · RH (list-driven roster) · P&L · 
 
 ## How to use it
 
-1. **[Open in Layerz](https://app.layerz.cc/models/39550987-f253-4a36-b067-6daddcb1e3ff)** and fork it (free account).
+1. **[Open in Layerz](https://layerz.cc/models/39550987-f253-4a36-b067-6daddcb1e3ff)** and fork it (free account).
 2. Edit the drivers — new customers/year, churn, CARR, expansion, headcount by department.
 3. Watch ARR, the P&L and the unit economics recompute, and confirm **Balance Check == 0**.
 
@@ -121,6 +121,6 @@ Sections: Assumptions · Operating Drivers · RH (list-driven roster) · P&L · 
 
 ---
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork_this_model-2D6BFF?style=for-the-badge)](https://app.layerz.cc/models/39550987-f253-4a36-b067-6daddcb1e3ff)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork_this_model-2D6BFF?style=for-the-badge)](https://layerz.cc/models/39550987-f253-4a36-b067-6daddcb1e3ff)
 
 *Shared by [@anthomakr](https://github.com/anthomakr) · built with [Layerz](https://layerz.cc) · we share the recipe, not the black box.*

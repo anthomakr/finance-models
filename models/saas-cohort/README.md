@@ -3,12 +3,12 @@
 > Recurring revenue projected by acquisition cohort, with churn structured by tenure rather than a flat rate. The customer count is a stock, not a formula, and the MRR bridge ties out to the cent every month.
 
 <p align="center">
-  <a href="https://app.layerz.cc/models/0cf40614-eb52-48b9-8d72-cbecc84860b2">
-    <img src="https://app.layerz.cc/models/0cf40614-eb52-48b9-8d72-cbecc84860b2/opengraph-image" width="640" alt="SaaS Cohort Revenue Projection, Layerz model card">
+  <a href="https://layerz.cc/models/0cf40614-eb52-48b9-8d72-cbecc84860b2">
+    <img src="https://layerz.cc/models/0cf40614-eb52-48b9-8d72-cbecc84860b2/opengraph-image" width="640" alt="SaaS Cohort Revenue Projection, Layerz model card">
   </a>
 </p>
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/0cf40614-eb52-48b9-8d72-cbecc84860b2)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://layerz.cc/models/0cf40614-eb52-48b9-8d72-cbecc84860b2)
 ![Currency](https://img.shields.io/badge/currency-EUR-555)
 ![Period](https://img.shields.io/badge/period-2026--01_→_2028--12_monthly-555)
 ![Balanced](https://img.shields.io/badge/3--statement-balanced-2E9E5B)
@@ -117,13 +117,13 @@ Cash bottoms at €279k just before the Series A, recovers to €3.2M, then fall
 
 ## How to use it
 
-1. **[Open it in Layerz](https://app.layerz.cc/models/0cf40614-eb52-48b9-8d72-cbecc84860b2)** (free account) and **fork** it: you get a model you own.
+1. **[Open it in Layerz](https://layerz.cc/models/0cf40614-eb52-48b9-8d72-cbecc84860b2)** (free account) and **fork** it: you get a model you own.
 2. Edit three levers: the **churn curve** by tenure, the **new customers** ramp, and **ARPA**. The customer stock, the revenue and all three statements recompute.
 3. Re-base **`SnM CAC`** and **`Steady Churn (LTV)`** on your own data before quoting any unit economics.
 4. Confirm `MRR Bridge Check == 0` and `Balance Check == 0`. If a change breaks either, the monitor turns red before the number reaches a slide.
 5. Export to Excel any time. The export is clean and auditable.
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/0cf40614-eb52-48b9-8d72-cbecc84860b2)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://layerz.cc/models/0cf40614-eb52-48b9-8d72-cbecc84860b2)
 
 ---
 

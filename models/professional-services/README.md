@@ -3,12 +3,12 @@
 > Revenue is not a growth rate. It is headcount × capacity × utilisation × bill rate, resolved grade by grade. Change one utilisation cell and the whole firm moves.
 
 <p align="center">
-  <a href="https://app.layerz.cc/models/d0e3688b-eceb-4341-ada1-e8a45957b3d8">
-    <img src="https://app.layerz.cc/models/d0e3688b-eceb-4341-ada1-e8a45957b3d8/opengraph-image" width="640" alt="Professional Services Firm, Layerz model card">
+  <a href="https://layerz.cc/models/d0e3688b-eceb-4341-ada1-e8a45957b3d8">
+    <img src="https://layerz.cc/models/d0e3688b-eceb-4341-ada1-e8a45957b3d8/opengraph-image" width="640" alt="Professional Services Firm, Layerz model card">
   </a>
 </p>
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/d0e3688b-eceb-4341-ada1-e8a45957b3d8)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://layerz.cc/models/d0e3688b-eceb-4341-ada1-e8a45957b3d8)
 ![Currency](https://img.shields.io/badge/currency-EUR-555)
 ![Period](https://img.shields.io/badge/period-2026--2028-555)
 ![Balanced](https://img.shields.io/badge/3--statement-balanced-2E9E5B)
@@ -120,12 +120,12 @@ One blended bill rate per grade: no client, country or engagement-type mix, and 
 
 ## How to use it
 
-1. **[Open it in Layerz](https://app.layerz.cc/models/d0e3688b-eceb-4341-ada1-e8a45957b3d8)** (free account) and **fork** it.
+1. **[Open it in Layerz](https://layerz.cc/models/d0e3688b-eceb-4341-ada1-e8a45957b3d8)** (free account) and **fork** it.
 2. Replace the `Grades` list with your own titles, then fill headcount, utilisation, rates and loaded cost.
 3. Re-base capacity, days WIP and DSO on your own invoicing reality. They drive the cash line more than the P&L does.
 4. Export to Excel any time. The export is clean and auditable.
 
-[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://app.layerz.cc/models/d0e3688b-eceb-4341-ada1-e8a45957b3d8)
+[![Open in Layerz](https://img.shields.io/badge/Open_in_Layerz-Fork-2D6BFF)](https://layerz.cc/models/d0e3688b-eceb-4341-ada1-e8a45957b3d8)
 
 ---
 
