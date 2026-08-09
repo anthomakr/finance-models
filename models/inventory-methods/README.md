@@ -19,13 +19,17 @@ A teaching model and a fork-and-adapt base for **any inventory-carrying business
 
 ## The three methods, side by side
 
-| | Formula | The assumption you own |
+Each method gets **its own tab**, so you can read one recipe without the other two in the way.
+
+| Tab | Formula | The assumption you own |
 |---|---|---|
-| **A. Percent of COGS** | `ABS(COGS) × ratio` | One ratio. Simple, and structurally blind to any efficiency gain. |
-| **B. Days inventory outstanding** | `ABS(COGS) × DIO / 365` | A number of days. Benchmarkable, negotiable, improvable. The standard 3-statement choice. |
-| **C. Unit build** | `units / 12 × months of cover × unit cost` | Cover and unit cost. The only one that survives a change in mix or supplier lead time. |
+| **Method A: percent of COGS** | `ABS(COGS) × ratio` | One ratio. Simple, and structurally blind to any efficiency gain. |
+| **Method B: days inventory outstanding** | `ABS(COGS) × DIO / 365` | A number of days. Benchmarkable, negotiable, improvable. The standard 3-statement choice. |
+| **Method C: unit build** | `units / 12 × months of cover × unit cost` | Cover and unit cost. The only one that survives a change in mix or supplier lead time. |
 
 All three compute on every period, permanently. `Inventory method switch` (1 / 2 / 3) decides which result flows into working capital, and `Inventory (selected method)` is the single line every downstream statement reads.
+
+**Every driver still lives in one place.** The `Assumptions` tab is the only source of truth, grouped in four sub-sections: revenue and margin, working capital terms, capital and financing and tax, and inventory method drivers. Each method tab *mirrors* the drivers it needs through callups, so it reads as a self-contained recipe without becoming a second place to edit a number.
 
 ## Year 1 they agree. Year 5 they don't.
 
@@ -38,6 +42,8 @@ Each method is anchored on the same starting position, which is exactly what you
 | C. Unit build (2.24 → 1.95 months) | 4,330,667 | 5,984,138 | 59 |
 
 **€865,398 of spread on the same business.** Method A's implied days never move: a fixed ratio has no way to express an efficiency gain, so it silently assumes the business never improves.
+
+That gap is not left for you to work out: the `Inventory selection` tab carries `Spread A vs B` and `Spread A vs C` as lines of the model, so the cost of each simplification is on screen next to the choice.
 
 ## The P&L is identical on all three
 
@@ -71,15 +77,25 @@ Nothing else in the model changes between the three runs, so the cash gap **is**
 
 ```mermaid
 flowchart TD
-  REV["Revenue<br/>growth off base"] --> COGS["COGS<br/>= Revenue × (1 − gross margin)"]
-  COGS --> MA["A. Percent of COGS"]
-  COGS --> MB["B. DIO / 365 × COGS"]
-  U["Units sold × months of cover"] --> MC["C. Unit build"]
-  COGS --> MC
-  SW["Inventory method switch<br/>1 / 2 / 3"] --> SEL["Inventory (selected method)"]
-  MA --> SEL
-  MB --> SEL
-  MC --> SEL
+  subgraph ASM["Assumptions (one tab, four sub-sections)"]
+    D1["Revenue and margin"]
+    D2["Working capital terms"]
+    D3["Capital, financing and tax"]
+    D4["Inventory method drivers"]
+  end
+  D1 --> REV["Revenue"]
+  REV --> COGS["COGS<br/>= Revenue × (1 − gross margin)"]
+  D4 -.callup.-> MA
+  D4 -.callup.-> MB
+  D4 -.callup.-> MC
+  COGS -.callup.-> MA
+  COGS -.callup.-> MB
+  COGS -.callup.-> MC
+  MA["Tab: Method A<br/>percent of COGS"] --> SEL
+  MB["Tab: Method B<br/>DIO / 365 × COGS"] --> SEL
+  MC["Tab: Method C<br/>unit build"] --> SEL
+  D4 --> SW["Inventory method switch"]
+  SW --> SEL["Inventory (selected method)"]
   SEL --> NWC["Net working capital<br/>= AR + Inventory − AP"]
   REV --> AR["Receivables: DSO 55"]
   COGS --> AP["Payables: DPO 45"]
@@ -94,7 +110,7 @@ flowchart TD
   RE --> BS
 ```
 
-Only one line in the whole model references a method: the switch. Everything downstream reads `Inventory (selected method)`, which is why flipping between methods recomputes the statements without breaking a single link.
+Dotted arrows are callups: a method tab mirrors the driver and the COGS base it reads, rather than owning them. Only one line in the whole model references a method, the switch. Everything downstream reads `Inventory (selected method)`, which is why flipping between methods recomputes the statements without breaking a single link.
 
 ## Balance sheet
 
