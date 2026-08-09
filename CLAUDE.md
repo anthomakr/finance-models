@@ -46,6 +46,7 @@ To publish or refresh a model page:
 | professional-services | `d0e3688b-eceb-4341-ada1-e8a45957b3d8` |
 | ecommerce-retail | `d5e899c7-a710-4f2a-9b05-cc3e88690af1` |
 | holdco-spv | `9548419c-9659-4da0-af74-14d58e61a220` |
+| inventory-methods | `4dd73ff7-3ce6-4e87-b823-6699f4985255` |
 
 ## Monthly models — read the right period
 
