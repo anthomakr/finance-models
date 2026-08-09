@@ -3,12 +3,22 @@ name: Check model links
 # The pages in this repo are frozen snapshots of live Layerz models.
 # If a model is edited away, unshared or deleted, the public page keeps
 # claiming it exists. This job catches that within a week.
+#
+# It also runs on pull requests, so a page that ships a dead or mistyped
+# model link is caught before merge rather than by the next Monday cron.
+# On a PR the checkout is the merge result, so what gets verified is the
+# repo as it would look on main.
 
 on:
   schedule:
     - cron: '0 7 * * 1' # Mondays, 07:00 UTC
   push:
     branches: [main]
+    paths:
+      - 'models/**'
+      - 'README.md'
+      - '.github/workflows/check-links.yml'
+  pull_request:
     paths:
       - 'models/**'
       - 'README.md'
